@@ -1,0 +1,42 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE配置
+.idea/
+.vscode/
+
+# 本地数据库和运行数据
+shop.db
+shop.db-*
+sessions/
+*.log
+
+# 可重新生成的向量数据库
+chroma_db/
+chroma_langchain_db/
+
+# 原AI伴侣项目遗留资源，只保留当前页面使用的logo
+resourses/*
+!resourses/logo.png
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
